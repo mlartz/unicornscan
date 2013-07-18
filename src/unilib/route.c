@@ -29,7 +29,7 @@
 static void get_netroutes(void);
 static int masktocidr(uint32_t );
 
-static int need_netroutes=1;
+static int need_netroutes=0;
 static patricia_tree_t *rt=NULL;
 static patricia_node_t *node=NULL;
 
